@@ -14,9 +14,7 @@ namespace OrderZodiacsSample
                = new List<string> { "牛", "豬", "鼠", "羊", "狗" };
 
             foreach (var item in list.OrderBy((x) => x, new ZCompare()))
-            { Console.WriteLine(item); }
-
-            Console.WriteLine("test");
+            { Console.WriteLine(item); }            
             Console.ReadLine();
         }
 
