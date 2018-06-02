@@ -16,6 +16,7 @@ namespace OrderZodiacsSample
             foreach (var item in list.OrderBy((x) => x, new ZCompare()))
             { Console.WriteLine(item); }
 
+            Console.WriteLine("test");
             Console.ReadLine();
         }
 
