@@ -10,8 +10,7 @@ namespace OrderZodiacsSample
     {
         static void Main(string[] args)
         {
-            List<string> list
-               = new List<string> { "牛", "豬", "鼠", "羊", "狗" };
+            List<string> list = new List<string> { "牛", "豬", "鼠", "羊", "狗" };
 
             foreach (var item in list.OrderBy((x) => x, new ZCompare()))
             {
